@@ -1,5 +1,5 @@
 import NextLink from 'next/link'
-import { Box, Heading, Container, Text, Divider, Button} from '@chakra-ui/react'
+import { Box, Heading, Container, Text, Button} from '@chakra-ui/react'
 import { AnimatePresence } from 'framer-motion'
 
 const NoFound = () => {

@@ -1,11 +1,9 @@
 import {
     Container,
-    Box,
     Heading,
-    SimpleGrid,
-    Divider
+    SimpleGrid
 } from '@chakra-ui/react'
-import Section from '../components/Section'
+import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
 import thumbOsuTrainer from '../public/images/works/osutrainer.png'
 

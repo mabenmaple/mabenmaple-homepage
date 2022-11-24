@@ -54,7 +54,7 @@ const Page = () => {
 
                 <Paragraph>I am a student who does stuff for fun, from web-dev, game-dev and computing
                 which involved learning Python, C and it&apos;s subsidiaries, Assembly, pretty much
-                anything that has some form of documentation. Over a couple years I've contributed to
+                anything that has some form of documentation. Over a couple years I&apos;ve contributed to
                 numerous projects, the most well-known/famous being{' '}
                     <NextLink href="/works/osu-trainer">
                         <Link>osu-trainer</Link>
