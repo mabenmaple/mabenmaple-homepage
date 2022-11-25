@@ -52,7 +52,7 @@ const Works = () => {
 
                 <Section delay={0.3}>
                     <WorkGridItem id="helloWorldHard" title="hard-helloworld" thumbnail={thumbHelloWorldHard}>
-                      Hardware approach to writing out "Hello World" in C to learn bit function.
+                      Hardware approach to writing out &quot;Hello World&quot; in C to learn bit function.
                     </WorkGridItem>
                 </Section>
             </SimpleGrid>

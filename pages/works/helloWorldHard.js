@@ -11,7 +11,7 @@ const Work = () => (
         68656c6c6f20776f726c64! <Badge>2021</Badge>
       </Title>
       <P>
-        One off project to write "Hello, World!" with bytes in C.
+        One off project to write &quot;Hello, World!&quot; with bytes in C.
       </P>
       <List ml={4} my={4}>
         <ListItem>
