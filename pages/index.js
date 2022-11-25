@@ -5,16 +5,29 @@ import {
     Heading,
     Image, 
     Link,
+    List,
+    ListItem,
+    Icon,
     Button,
+    SimpleGrid,
     useColorModeValue
 } from '@chakra-ui/react'
 import { ChevronRightIcon } from '@chakra-ui/icons'
 import Section from '../components/section'
+import Layout from '../components/layouts/article'
 import Paragraph from '../components/paragraph'
 import { BioSection, BioYear } from '../components/bio'
+import { GridItem } from '../components/grid-item'
+import {
+  IoLogoTwitter,
+  IoLogoGithub,
+  IoLogoReddit,
+  IoLogoDiscord
+} from 'react-icons/io5'
 
 const Page = () => {
     return (
+      <Layout>
         <Container>
             <Box borderRadius="lg" bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')} p={3} mb={6} align="center">
                 I&apos;m Nick, also known as mabenmaple, programmer and web developer from Australia. </Box>
@@ -52,10 +65,7 @@ const Page = () => {
                     Work
                 </Heading>
 
-                <Paragraph>I am a student who does stuff for fun, from web-dev, game-dev and computing
-                which involved learning Python, C and it&apos;s subsidiaries, Assembly, pretty much
-                anything that has some form of documentation. Over a couple years I&apos;ve contributed to
-                numerous projects, the most well-known/famous being{' '}
+                <Paragraph>I am a student who does stuff for fun, from web-dev, game-dev and computing which involved learning Python, C/C++/C#, Rust, Assembly, pretty much anything that has some form of documentation. Over a couple years I&apos;ve contributed to numerous projects, the most well-known/famous being{' '}
                     <NextLink href="/works/osu-trainer">
                         <Link>osu-trainer</Link>
                     </NextLink>
@@ -100,7 +110,44 @@ const Page = () => {
                     Machine Learning, Keyboards, Gaming, Basketball 
                 </Paragraph>
             </Section>
+          
+            <Section delay={0.3}>
+              <Heading as="h3" variant="section-title">
+                Social Media
+              </Heading>
+              
+              <List>
+                <ListItem>
+                  <Link href="https://github.com/mabenmaple" target="_blank">
+                    <Button variant="ghost" colorScheme="teal" leftIcon={<Icon as={IoLogoGithub} />}>@mabenmaple</Button>
+                  </Link>
+                </ListItem>
+              </List>
+
+              <List>
+                <ListItem>
+                  <Link href="https://twitter.com/mabenmaple" target="_blank">
+                    <Button variant="ghost" colorScheme="teal" leftIcon={<Icon as={IoLogoTwitter} />}>@mabenmaple</Button>
+                  </Link>
+                </ListItem>
+              </List>
+
+              <List>
+                <ListItem>
+                  <Link href="https://reddit.com/user/nllckk" target="_blank">
+                    <Button variant="ghost" colorScheme="teal" leftIcon={<Icon as={IoLogoReddit} />}>@mabenmaple</Button>
+                  </Link>
+                </ListItem>
+              </List>
+
+              <List>
+                <ListItem>
+                  <Button variant="ghost" colorScheme="teal" leftIcon={<Icon as={IoLogoDiscord} />}>mabenmaple#2540</Button>
+                </ListItem>
+              </List>
+            </Section>
         </Container>
+      </Layout>
     )
 }
 
