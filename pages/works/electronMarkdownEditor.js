@@ -8,7 +8,7 @@ const Work = () => (
   <Layout title="Electron Markdown Editor">
     <Container>
       <Title>
-        Electron Markdown Editor <Badge>2022</Badge>
+        markdown-editor <Badge>2022</Badge>
       </Title>
       <P>
         Dynamic real-time rendering markdown editor.

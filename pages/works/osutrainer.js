@@ -8,7 +8,7 @@ const Work = () => (
   <Layout title="Osu-trainer!">
     <Container>
       <Title>
-        osu-trainer! <Badge>2020-</Badge>
+        osu-trainer <Badge>2020-</Badge>
       </Title>
       <P>
           An osu application that helps to customize player experience by offering options for bpm control, ar control, od control, etc. on any
@@ -17,8 +17,8 @@ const Work = () => (
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Website</Meta>
-          <Link href="https://github.com/FunOrange/osu-trainer">
-            https://github.com/FunOrange/osu-trainer <ExternalLinkIcon mx="2px" />
+          <Link href="https://github.com/mabenmaple/osu-trainer">
+            https://github.com/mabenmaple/osu-trainer <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
         <ListItem>

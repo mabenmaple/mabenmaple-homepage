@@ -8,7 +8,7 @@ const Work = () => (
   <Layout title="Terminal Ascii Mandelbrot">
     <Container>
       <Title>
-        Terminal Ascii Mandelbrot <Badge>2021</Badge>
+        mandelbrot-terminal <Badge>2021</Badge>
       </Title>
       <P>
         The famous mandelbrot set but within the terminal, and rendered using 72 standard characters!

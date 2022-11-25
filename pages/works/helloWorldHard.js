@@ -8,7 +8,7 @@ const Work = () => (
   <Layout title="Byte Hello World">
     <Container>
       <Title>
-        68656c6c6f20776f726c64! <Badge>2021</Badge>
+        hard-helloworld <Badge>2021</Badge>
       </Title>
       <P>
         One off project to write &quot;Hello, World!&quot; with bytes in C.

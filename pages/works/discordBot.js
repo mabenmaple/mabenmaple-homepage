@@ -8,7 +8,7 @@ const Work = () => (
   <Layout title="Discord-bot">
     <Container>
       <Title>
-        Discord Bot <Badge>2021</Badge>
+        discord-bot <Badge>2021</Badge>
       </Title>
       <P>
         Discord bot that allows for the playing of songs, kicking, banning, general chat commands, etc.

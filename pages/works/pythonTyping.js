@@ -8,7 +8,7 @@ const Work = () => (
   <Layout title="Python Typing Game">
     <Container>
       <Title>
-        Python Typing Game <Badge>2019</Badge>
+        python-typing <Badge>2019</Badge>
       </Title>
       <P>
         Scuffed typing game in python trying to emulate the scrolling typing games on old computer systems of the mid 80s, included only because this is the only python project I can make public LOL
