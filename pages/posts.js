@@ -1,6 +1,6 @@
 import { Container, Heading, SimpleGrid } from '@chakra-ui/react'
 import Section from '../components/section'
-import { WorkGridItem } from '../components/grid-item'
+import { PostGridItem } from '../components/grid-item'
 import workinprogress from '../public/images/contents/workinprogress.png'
 
 const Posts = () => {
@@ -12,9 +12,9 @@ const Posts = () => {
 
       <SimpleGrid columns={[1,1,2]} gap={6}>
         <Section>
-          <WorkGridItem id="testblog" title="Test Blog" thumbnail={workinprogress}>
+          <PostGridItem id="testblog" title="Test Blog" thumbnail={workinprogress}>
             Test blog post before I start posting actual blogposts
-          </WorkGridItem>
+          </PostGridItem>
         </Section>
       </SimpleGrid>
     </Container>
