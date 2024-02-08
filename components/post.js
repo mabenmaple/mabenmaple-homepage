@@ -22,6 +22,10 @@ export const PostImage = ({ src, alt }) => (
     <Image borderRadius="lg" w="full" src={src} alt={alt} mb={4} />
 )
 
+export const InPostImage = ({ src, alt }) => (
+    <Image borderRadius="lg" w="full" src={src} alt={alt} mb={1} />
+)
+
 export const Meta = ({ children }) => (
     <Badge colorscheme="green" mr={2}>
         {children}
