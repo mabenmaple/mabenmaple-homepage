@@ -91,7 +91,7 @@ const Post = () => (
         in which he successfully had his defence argue he was a &apos;propagandist, entertainer&apos; and not a credible journalist under the &apos;entertainment&apos; company Fox News <a href="#11">[11]</a>.
         And since his ousting from Fox News he&apos;s mascaraded as a legitimate journalist, challenging the uninformed through assertive claims and anecdotal evidence 
         presented as fact in order to drive, again, the fattening of his own pockets. The Tucker style &apos;journalist&apos; not only extends to disgraced media personalities,
-        but also to a new revolution of online political streamer, such as Hasan 'HasanAbi' Piker, who has consistently parroted conspiracy theories and tankie arguments
+        but also to a new revolution of online political streamer, such as Hasan &apos;HasanAbi&apos; Piker, who has consistently parroted conspiracy theories and tankie arguments
         such as calling Taiwan the &apos;confederacy in exile&apos; (yes I am not joking) or having a literal Houthi pirate on his stream and idealising him as some form of rebellious 
         anti-capitalist hero <a href="#12">[12]</a>.
       </P>
