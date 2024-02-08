@@ -1,4 +1,5 @@
 import NextLink from 'next/link'
+import { Analytics } from '@vercel/analytics/react'
 import { 
     Container, 
     Box,
@@ -145,6 +146,7 @@ const Page = () => {
               </List>
             </Section>
         </Container>
+      <Analytics />
       </Layout>
     )
 }
