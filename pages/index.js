@@ -1,5 +1,4 @@
 import NextLink from 'next/link'
-import { Analytics } from '@vercel/analytics/react'
 import { 
     Container, 
     Box,
@@ -28,7 +27,6 @@ const Page = () => {
     return (
       <Layout>
         <Container>
-            <Analytics />
             <Box borderRadius="lg" bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')} p={3} mb={6} align="center">
                 I&apos;m Nick, also known as mabenmaple, programmer and web developer from Australia. </Box>
 
