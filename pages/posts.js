@@ -1,7 +1,7 @@
 import { Container, Heading, SimpleGrid } from '@chakra-ui/react'
 import Section from '../components/section'
 import { PostGridItem } from '../components/grid-item'
-import workinprogress from '../public/images/contents/workinprogress.png'
+import tuckermoscow from '../public/images/posts/tuckermoscow.png'
 
 const Posts = () => {
   return (
@@ -12,8 +12,7 @@ const Posts = () => {
 
       <SimpleGrid columns={[1,1,2]} gap={6}>
         <Section>
-          <PostGridItem id="testblog" title="Test Blog" thumbnail={workinprogress}>
-            Test blog post before I start posting actual blogposts
+          <PostGridItem id="testblog" title="Tucker Carlson, Social Media Radicalisation, and the Bigger Picture" thumbnail={tuckermoscow}>
           </PostGridItem>
         </Section>
       </SimpleGrid>
