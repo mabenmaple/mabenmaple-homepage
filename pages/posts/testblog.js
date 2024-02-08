@@ -78,7 +78,7 @@ const Post = () => (
         staunchly pro-Palestinian focus. However as a consequence, he now has an entirely new audience who agree with his posts on the Gaza conflict to peddle his 
         extreme views on Iran, Russia, China, and North Korea <a href="#9">[9]</a>. This, in my opinion, leads to a pervasive form of Confirmation Bias in which you find yourself 
         agreeing with more radical, unfounded viewpoints when said by someone who you agree with on a certain issue you are vehemently passionate about. Why would you
-        in good concious support the democracy of the United States, and it&apos;s institutions, when it supports what you view as a genocide in Gaza? Why not support 
+        in good concious support the democracy of the United States, and it&apos;s institutions, when it supports what you view as a genocide in Gaza. Why not support 
         Putin, shunned by the west, but who has called for a ceasefire and is generally closer to the average voter&apos;s opinion on the Gaza war? It&apos;s hard for 
         the average person to accept the driving forces of the geo-political positioning of states, for example in the Gaza war where the liberal United States vetoes 
         the UN call for a ceasefire due to their interests in the region and with Israel.
@@ -116,8 +116,8 @@ const Post = () => (
       <P>
         On the other hand other countries have had a lack of political polarisation amongst a sea of European and American right wing actors, for example in Australia. 
         I would argue this is generally due to a myriad of factors such as population demographics, HDI, wealth, general political apathy, et cetera. Polling from the 
-        Lowy Institute suggests that Australian&apos;s focus more on policy issues and less on those running themselves due to how our prime-minister is elected (we 
-        don&apos;t vote directly for them), so we&apos;re theoretically less susceptible to the siren call of populism and the generally reactionary policies that come with it <a href="#14">[14]</a>. 
+        Lowy Institute suggests that Australian&apos;s focus more on policy issues, and are more likely to change which party they vote for each election in comparison to an 
+        increasingly tribal United States and more in line with European systems <a href="#14">[14]</a>.
         Personally I also think we are just more apathetic to politics, especially younger people as we are forced to vote but it&apos;s hard to find real data to support this so 
         it&apos;s just opinion.
       </P>
