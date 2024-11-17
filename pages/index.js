@@ -23,6 +23,9 @@ import {
   IoLogoDiscord
 } from 'react-icons/io5'
 
+import { FaBluesky } from "react-icons/fa6";
+
+
 const Page = () => {
     return (
       <Layout>
@@ -63,11 +66,7 @@ const Page = () => {
                     Work
                 </Heading>
 
-                <Paragraph>I am a student who does stuff for fun, from web-dev, game-dev and computing which involved learning Python, C/C++/C#, Rust, Assembly, pretty much anything that has some form of documentation. Over a couple years I&apos;ve contributed to numerous projects, the most well-known/famous being{' '}
-                    <NextLink href="/works/osu-trainer">
-                        <Link>osu-trainer</Link>
-                    </NextLink>
-                .
+                <Paragraph>I am a student who does stuff for fun, from web-dev, game-dev and computing which involved learning Python, C/C++/C#, Rust, Assembly, pretty much anything that has some form of documentation. Over a couple years I&apos;ve contributed to numerous projects and also have a passion for politics!
                 </Paragraph>
 
                 <Box align="center" my={4}>
@@ -124,8 +123,16 @@ const Page = () => {
 
               <List>
                 <ListItem>
-                  <Link href="https://twitter.com/mabenmaple" target="_blank">
-                    <Button variant="ghost" colorScheme="teal" leftIcon={<Icon as={IoLogoTwitter} />}>@mabenmaple</Button>
+                  <Link href="https://twitter.com/mabenmaple1" target="_blank">
+                    <Button variant="ghost" colorScheme="teal" leftIcon={<Icon as={IoLogoTwitter} />}>@mabenmaple1</Button>
+                  </Link>
+                </ListItem>
+              </List>
+
+              <List>
+                <ListItem>
+                  <Link href="https://bsky.app/profile/mabenmaple.dev" target="_blank">
+                    <Button variant="ghost" colorScheme="teal" leftIcon={<Icon as={FaBluesky} />}>@mabenmaple.dev</Button>
                   </Link>
                 </ListItem>
               </List>
