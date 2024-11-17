@@ -23,7 +23,8 @@ import {
   IoLogoDiscord
 } from 'react-icons/io5'
 
-import { FaBluesky } from 'react-icons/fa6';
+
+import { PiButterfly } from "react-icons/pi";
 
 
 const Page = () => {
@@ -132,7 +133,7 @@ const Page = () => {
               <List>
                 <ListItem>
                   <Link href="https://bsky.app/profile/mabenmaple.dev" target="_blank">
-                    <Button variant="ghost" colorScheme="teal" leftIcon={<Icon as={FaBluesky} />}>@mabenmaple.dev</Button>
+                    <Button variant="ghost" colorScheme="teal" leftIcon={<Icon as={PiButterfly} />}>@mabenmaple.dev</Button>
                   </Link>
                 </ListItem>
               </List>
